@@ -189,6 +189,9 @@
 .mt-35 {
     margin-top: 35px;
 }
+.mt-50 {
+    margin-top: 50px;
+}
 .mr-10 {
     margin-right: 10px;
 }
@@ -243,6 +246,9 @@
 .mb-35 {
     margin-bottom: 35px;
 }
+.mb-40 {
+    margin-bottom: 40px;
+}
 /* End Margin */
 /* Start Fonts */
 .txt-c {
@@ -294,4 +300,12 @@
 .h-full {
     height: 100%;
 }
+.bg-cover {
+    background-size: cover;
+}
+    @media (mix-width: 767px) {
+        .txt-c-mobile {
+            text-align: center;
+        }
+    }
 /* End Dimentions edit */

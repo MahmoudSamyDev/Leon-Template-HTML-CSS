@@ -27,29 +27,29 @@
 </head>
 <body>
     <!-- Start Header -->
-    <header>
-        <div class="container">
+    <header class="p-20">
+        <div class="container flex-between ">
             <img class="logo" src="images/logo.png">
-            <div class="links">
-                <span class="icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+            <div class="links p-relative">
+                <span class="icon d-flex">
+                    <span class="w-full"></span>
+                    <span class="w-full"></span>
+                    <span class="w-full"></span>
                 </span>
-                <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul class="p-absolute">
+                    <li><a class="d-block" href="#services">Services</a></li>
+                    <li><a class="d-block" href="#portfolio">Portfolio</a></li>
+                    <li><a class="d-block" href="#about">About</a></li>
+                    <li><a class="d-block" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <!-- End Header -->
     <!-- Start Landing -->
-    <div class="landing">
+    <div class="landing bg-cover">
         <div class="container">
-            <div class="welcome">
+            <div class="welcome p-center txt-c">
                 <h1>Hello There</h1>
                 <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
             </div>
@@ -58,28 +58,28 @@
     <!-- End Landing -->
     <!-- Start Marketing -->
     <div class="marketing">
-        <div class="container">
-            <div class="card card_1">
-                <i class="fa-solid fa-wand-magic"></i>
-                <h3>Tell Us Your Idea</h3>
+        <div class="container d-grid">
+            <div class="card card_1 txt-c">
+                <i class="fa-solid fa-wand-magic mb-20"></i>
+                <h3 class="fw-bold mb-40">Tell Us Your Idea</h3>
                 <p>
                     Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut lab
                 </p>
             </div>
-            <div class="card card_2">
-                <i class="fa-regular fa-gem"></i>
-                <h3>We Will Do All The Work</h3>
+            <div class="card card_2 txt-c">
+                <i class="fa-regular fa-gem mb-20"></i>
+                <h3 class="fw-bold mb-40">We Will Do All The Work</h3>
                 <p>
                     Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut lab
                 </p>
             </div>
-            <div class="card card_3">
-                <i class="fa-solid fa-earth-americas"></i>
-                <h3>Your Product is Worldwide</h3>
+            <div class="card card_3 txt-c">
+                <i class="fa-solid fa-earth-americas mb-20"></i>
+                <h3 class="fw-bold mb-40">Your Product is Worldwide</h3>
                 <p>
                     Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit,
@@ -96,12 +96,12 @@
                 <h1>Services</h1>
                 <p>Don't be busy, be productive</p>
             </div>
-            <div class="service">
+            <div class="service d-grid">
                 <div class="col">
-                    <div class="card">
+                    <div class="card d-flex mt-50 txt-c-mobile">
                         <i class="fa-solid fa-palette"></i>
-                        <div class="info">
-                            <h3>Graphic Design</h3>
+                        <div class="info ml-20">
+                            <h3 class="mb-20">Graphic Design</h3>
                             <p>
                                 Graphic design is the process of visual communication
                                 and problem-solving using one or more of typography,
@@ -109,10 +109,10 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card d-flex mt-50 txt-c-mobile">
                         <i class="fa-solid fa-gem"></i>
-                        <div class="info">
-                            <h3>UI & UX</h3>
+                        <div class="info ml-20">
+                            <h3 class="mb-20">UI & UX</h3>
                             <p>
                                 Process of enhancing user satisfaction with a product
                                 by improving the usability, accessibility,
@@ -122,20 +122,20 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card d-flex mt-50 txt-c-mobile">
                         <i class="fa-solid fa-vector-square"></i>
-                        <div class="info">
-                            <h3>Web Design</h3>
+                        <div class="info ml-20">
+                            <h3 class="mb-20">Web Design</h3>
                             <p>
                                 Web design encompasses many different skills
                                 and disciplines in the production and maintenance of websites.
                             </p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card d-flex mt-50 txt-c-mobile">
                         <i class="fa-solid fa-gear"></i>
-                        <div class="info">
-                            <h3>Web Development</h3>
+                        <div class="info ml-20">
+                            <h3 class="mb-20">Web Development</h3>
                             <p>
                                 Web development is a broad term for the work involved
                                 in developing a web site for the Internet or an intranet.
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="image">
+                    <div class="image p-relative">
                         <img src="images/services.jpg">
                     </div>
                 </div>
@@ -153,31 +153,31 @@
     </div>
     <!-- End Services -->
     <!-- Start Portfolio -->
-    <div class="portfolio" id="portfolio">
+    <div class="portfolio pt-10 pb-10 pl-0 pr-0" id="portfolio">
         <div class="container">
             <div class="special-heading">
                 <h1>Portfolio</h1>
                 <p>If you do it right, it will last forever.</p>
             </div>
-            <div class="projects">
-                <div class="col">
-                    <img src="images/portfolio-1.jpg">
-                    <div class="info">
-                        <h3>Project Here</h3>
+            <div class="projects d-grid">
+                <div class="col bg-white">
+                    <img class="w-full" src="images/portfolio-1.jpg">
+                    <div class="info p-10">
+                        <h3 class="mt-20 mb-20">Project Here</h3>
                         <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
                     </div>
                 </div>
-                <div class="col">
-                    <img src="images/portfolio-2.jpg">
-                    <div class="info">
-                        <h3>Project Here</h3>
+                <div class="col bg-white">
+                    <img class="w-full" src="images/portfolio-2.jpg">
+                    <div class="info p-10">
+                        <h3 class="mt-20 mb-20">Project Here</h3>
                         <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
                     </div>
                 </div>
-                <div class="col">
-                    <img src="images/portfolio-3.jpg">
-                    <div class="info">
-                        <h3>Project Here</h3>
+                <div class="col bg-white">
+                    <img class="w-full" src="images/portfolio-3.jpg">
+                    <div class="info p-10">
+                        <h3 class="mt-20 mb-20">Project Here</h3>
                         <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
                     </div>
                 </div>
@@ -192,14 +192,14 @@
                 <h1>About</h1>
                 <p>Less is more work</p>
             </div>
-            <div class="info">
+            <div class="info d-grid">
                 <div class="col">
-                    <div class="image">
+                    <div class="image p-relative">
                         <img src="images/about.jpg" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, explicabo laborum? Dignissimos in iusto labore facilis illo aliquid officia ullam ducimus? Ipsum est ut sed ab. Libero at quis nobis.</p>
+                    <p class="fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, explicabo laborum? Dignissimos in iusto labore facilis illo aliquid officia ullam ducimus? Ipsum est ut sed ab. Libero at quis nobis.</p>
                     <hr>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, explicabo laborum? Dignissimos in iusto labore facilis illo aliquid officia ullam ducimus? Ipsum est ut sed ab. Libero at quis nobis.</p>
                 </div>
@@ -209,16 +209,16 @@
     <!-- End About -->
     <!-- Start Contacts -->
     <div class="contact" id="contact">
-        <div class="container">
+        <div class="container pt-10 pt-10">
             <div class="special-heading">
                 <h1>Contact</h1>
                 <p>We are born to create</p>
             </div>
-            <div class="contact-info">
+            <div class="contact-info txt-c mb-50">
                 <h4>Feel free to drop us a line at:</h4>
-                <a href="mailto:leonagency@mail.com?subject=Contact" class="link">leonagency@mail.com</a>
+                <a href="mailto:leonagency@mail.com?subject=Contact" class="link mb-10">leonagency@mail.com</a>
                 <div class="social">
-                    Find Us On Social Networks
+                        Find Us On Social Networks
                     <i class="fa-brands fa-youtube"></i>
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-twitter"></i>
@@ -228,9 +228,9 @@
     </div>
     <!-- End Contacts -->
     <!-- Start Footer -->
-    <footer>
+    <footer class="txt-c">
         <div class="container">
-            <p>© 2021 <span>Leon</span> All Right Reserved</p>
+            <p class="c-white fw-bold">© 2021 <span>Leon</span> All Right Reserved</p>
         </div>
     </footer>
     <!-- End Footer -->

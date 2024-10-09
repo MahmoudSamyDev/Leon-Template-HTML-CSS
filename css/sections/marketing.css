@@ -3,27 +3,13 @@
     padding: 90px 0;
     background-color: #f7f6f7;
 }
-
 .marketing .container {
-    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-
-.marketing .container .card {
-    text-align: center;
-}
-
 .marketing .container .card i {
     font-size: 40px;
     color: var(--main-color);
-    margin-bottom: 20px;
 }
-
-.marketing .container .card h3 {
-    margin-bottom: 40px;
-    font-weight: bold;
-}
-
 .marketing .container .card p {
     line-height: 1.8;
     color: #777;

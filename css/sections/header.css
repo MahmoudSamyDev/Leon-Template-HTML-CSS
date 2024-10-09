@@ -1,60 +1,35 @@
 /* Start Header */
-header {
-    padding: 20px
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 header .logo {
     width: 60px;
 }
-
-header .links {
-    position: relative;
-}
-
 header .container .links .icon {
     width: 30px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-
 header .container .links .icon span {
     height: 2px;
-    width: 100%;
     background-color: #333;
     margin-bottom: 5px;
 }
-
 header .container .links .icon span:nth-child(2) {
     width: 60%;
     transition-duration: 0.3s;
 }
-
 header .links:hover .icon span:nth-child(2) {
     width: 100%;
 }
-
-
 header .container .links ul {
     list-style-type: none;
     min-width: 150px;
-    position: absolute;
     background-color: #eee;
     right: 0;
     top: 40px;
     display: none;
 }
-
 header .container .links:hover ul {
     display: block;
 }
-
 header .container .links ul:before {
     content: "";
     position: absolute;
@@ -63,19 +38,15 @@ header .container .links ul:before {
     right: 5px;
     top: -30px;
 }
-
-header .container .links ul li a{
-    display: block;
+header .container .links ul li a {
     text-decoration: none;
     color: #333;
     padding: 10px;
     transition-duration: 0.3s;
 }
-
 header .container .links ul li a:hover {
     padding-left: 25px;
 }
-
 header .container .links ul li:not(:last-child) {
     border-bottom: 1px solid #ddd;
 }
