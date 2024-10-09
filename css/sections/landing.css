@@ -1,0 +1,26 @@
+/* Start Landing */
+.landing {
+    background-image: url('../../images/landing.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.landing .container .welcome {
+    max-width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.landing .container .welcome h1 {
+    font-size: 50px;
+    font-weight: 800px;
+    color: #10cbb6;
+    margin-bottom: 20px;
+}
+
+.landing .container .welcome p {
+    font-size: 20px;
+}
+/* End Landing */

@@ -1,0 +1,28 @@
+/* Start Portfolio */
+.portfolio {
+    background-color: #f7f6f7;
+    padding: 10px 0;
+}
+
+.portfolio .container .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin: 100px 0;
+}
+
+.portfolio .container .projects .col {
+    background-color: white;
+}
+
+.portfolio .container .projects .col .info {
+    padding: 10px;
+}
+
+.portfolio .container .projects .col h3 {
+    margin: 20px 0;
+}
+.portfolio .container .projects img {
+    width: 100%
+}
+/* End Portfolio */

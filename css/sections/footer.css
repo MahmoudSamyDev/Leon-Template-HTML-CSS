@@ -1,0 +1,18 @@
+/* Start Footer */
+footer {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer p span {
+    color: var(--main-color);
+}
+/* End Footer */
+
