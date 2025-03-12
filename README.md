@@ -2,11 +2,11 @@
 This project is a modern and responsive landing page designed to enhance the digital presence of startups and tech companies. It provides a clean, well-structured design that ensures a seamless user experience across all devices.
 
 ## **🔹 Project Overview:**
-Modern and visually appealing design  
-Clean and well-structured code for easy customization  
-Fully responsive layout to adapt seamlessly to all screen sizes  
-High performance and fast loading speeds using optimized CSS  
-Well-organized sections to present information effectively  
+- Modern and visually appealing design  
+- Clean and well-structured code for easy customization  
+- Fully responsive layout to adapt seamlessly to all screen sizes  
+- High performance and fast loading speeds using optimized CSS  
+- Well-organized sections to present information effectively  
 
 ## **🔹 Page Sections:**
 ✔ Landing Section: A visually striking header with a welcome message  
